@@ -1,4 +1,6 @@
-# **Classroom Template for Skunkworks Academy** ![License](https://img.shields.io/github/license/Skunkworks-Academy/Classroom-Template) ![GitHub last commit](https://img.shields.io/github/last-commit/Skunkworks-Academy/Classroom-Template) ![GitHub contributors](https://img.shields.io/github/contributors/Skunkworks-Academy/Classroom-Template)
+# **Classroom Template for Skunkworks Academy** 
+
+![License](https://img.shields.io/github/license/Skunkworks-Academy/Classroom-Template) ![GitHub last commit](https://img.shields.io/github/last-commit/Skunkworks-Academy/Classroom-Template) ![GitHub contributors](https://img.shields.io/github/contributors/Skunkworks-Academy/Classroom-Template)
 
 Welcome to the **Skunkworks Academy Classroom Template** repository! This repository serves as the foundational structure for all courses, projects, and assignments within Skunkworks Academy. Whether you're a member, student, or customer, this template will guide you in setting up and managing your classroom activities effectively.
 
