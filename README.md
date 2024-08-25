@@ -1,63 +1,76 @@
-# **Classroom Template for Skunkworks Academy** 
+# Classroom-Template
 
-![License](https://img.shields.io/github/license/Skunkworks-Academy/Classroom-Template) ![GitHub last commit](https://img.shields.io/github/last-commit/Skunkworks-Academy/Classroom-Template) ![GitHub contributors](https://img.shields.io/github/contributors/Skunkworks-Academy/Classroom-Template)
+This repository serves as the template for the Student User Registry and Management System (SURMS) project. It includes the backend built with Django and the frontend built with React, along with documentation and deployment guides.
 
-Welcome to the **Skunkworks Academy Classroom Template** repository! This repository serves as the foundational structure for all courses, projects, and assignments within Skunkworks Academy. Whether you're a member, student, or customer, this template will guide you in setting up and managing your classroom activities effectively.
+## Directory Structure
 
----
+\\\
+Classroom-Template/
+├── backend/
+│   ├── requirements.txt
+│   ├── manage.py
+│   ├── surms_backend/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   ├── asgi.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── serializers.py
+│   │   ├── api/
+│   │   │   ├── __init__.py
+│   │   │   ├── urls.py
+│   │   │   ├── views.py
+│   │   │   ├── serializers.py
+│   │   ├── tests/
+│   │   │   ├── __init__.py
+│   │   │   ├── test_models.py
+│   │   │   ├── test_views.py
+│   ├── .env.example
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── Profile.js
+│   │   │   ├── RegistrationForm.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── package.json
+│   ├── .env.example
+├── docs/
+│   ├── API_DOCUMENTATION.md
+│   ├── SYSTEM_ARCHITECTURE.md
+│   ├── DEPLOYMENT_GUIDE.md
+├── .gitignore
+├── README.md
+├── LICENSE
+\\\
 
-## **About**
+## Getting Started
 
-This repository provides a standardized template for creating and managing classrooms within Skunkworks Academy. It is tailored for use by:
+To get started with the SURMS project, follow these steps:
 
-- **Academy Members**: Facilitators and instructors who design and manage courses.
-- **Students**: Learners participating in courses and assignments.
-- **Customers**: Organizations and individuals utilizing Skunkworks Academy's educational resources for training and development.
+1. **Backend Setup**:
+    - Navigate to the \ackend/\ directory.
+    - Install the required dependencies using \pip install -r requirements.txt\.
+    - Set up your environment variables using the \.env.example\ file.
 
----
+2. **Frontend Setup**:
+    - Navigate to the \rontend/\ directory.
+    - Install the required dependencies using \
+pm install\.
+    - Set up your environment variables using the \.env.example\ file.
 
-## **Features**
+3. **Run the Application**:
+    - Start the Django development server: \python manage.py runserver\.
+    - Start the React development server: \
+pm start\.
 
-- 🎯 **Standardized Structure**: A consistent and organized file structure that simplifies classroom setup and management.
-- 🛠️ **Customizable Templates**: Pre-built templates for course materials, assignments, and projects, allowing easy customization for specific needs.
-- 🔧 **Integrated Tools**: Compatibility with GitHub Classroom for seamless student management, assignment distribution, and grading.
-- 📚 **Documentation**: Comprehensive guides and best practices for setting up and using this template effectively.
+## Documentation
 
----
-
-## **Usage**
-
-### **1. Fork this Repository**
-
-To get started, fork this repository to your own GitHub account. This will allow you to customize the template for your specific classroom needs.
-
-### **2. Customize the Template**
-
-- **Course Materials**: Add or modify the course content, including lectures, exercises, and reading materials.
-- **Assignments**: Set up and configure assignments using the provided templates. You can define the grading criteria and deadlines.
-- **Project Files**: Organize project files and resources that students will need to complete their coursework.
-
-### **3. Manage Your Classroom**
-
-- **GitHub Classroom Integration**: Use this repository as a template for your GitHub Classroom. Distribute assignments, track student progress, and manage submissions directly through GitHub.
-- **Collaboration**: Encourage collaboration among students by leveraging GitHub’s pull requests, issues, and discussions features.
-
-### **4. Deployment**
-
-For instructors who wish to deploy course content or project demonstrations, follow the deployment guide included in this template to host your content on platforms like GitHub Pages, Heroku, or Vercel.
-
----
-
-## **Support**
-
-If you encounter any issues or have questions about using this template, please contact the Skunkworks Academy support team at [info@skunkworks.africa](mailto:info@skunkworks.africa).
-
----
-
-## **License**
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-![Footer Image](https://img.shields.io/badge/Skunkworks-Academy-blueviolet)
+Refer to the [docs](docs/) directory for detailed API documentation, system architecture, and deployment guides.
